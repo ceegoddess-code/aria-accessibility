@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            body { font-family: arial, san-serif; padding: 2em; max=width: 800px; margin: auto;}
+            nav a { margin-right: 1em;}
+            input, button  margin: 0.5em 0; padding: 0.5em; }
+        </style>
+    </head>
+    <body>
+        <h1> Understanding ARIA and Web Accessibility </h1>
+        <nav role = "navigation" aria-label=""Main navigation">
+            <a href="#about">About</a>
+            <a href="#form"><Form</a>
+            </nav>
+
+            <section id=""about">
+                <h2>What is ARIA?</h2>
+                <p>ARIA (accessible Rich Internet Applications) is a set attributes that make web content more accessible to people with disabilities, especially those using screen readers. It helps define roles, states, and properties that are not available in HTML.</p>
+                <P> Web accessibility ensures that everyone, regardless of ability, can interact with and understand web content. ARIA tags enhance this by providing additional context and structure.</P>
+                </section>
+
+                <section id=""form">
+                  <h2> Accessible Form Example</h2> 
+                  <input type=""text" aria-label=""usernname" placeholder="Enter username" />
+                  
+                  <label for="email">Email Adress:</label>
+                    <input type="email" id="email" name="email" aria-required="true" placeholder="Enter email" />
+
+                    <button aria-label="Submit registration form">Submit</button>
+
+                    <a href="https://example.com" role="button" aria-label="learn more about accessibility">Learn More</a>
+
+                    </section>
+                    </body>
+                    </html>
